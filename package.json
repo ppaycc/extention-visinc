@@ -9,9 +9,15 @@
     "socket.io": "^4.7.4"
   },
   "scripts": {
+    "build": "webpack",
+    "prod": "node ./dist/index.js",
     "start": "node ./index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "^5.90.1",
+    "webpack-cli": "^5.1.4"
+  }
 }
